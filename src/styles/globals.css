@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --altura: calc(100vh - 80px)
+}
+
+/* Input focus */
+.search-full{
+    @apply text-lg py-1 pl-2 pr-9 rounded-3xl w-full;
+    transition-duration: .04s;
+}
